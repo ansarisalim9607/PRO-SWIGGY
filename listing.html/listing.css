@@ -1,0 +1,94 @@
+body{
+    margin:0px;
+    background-color: lightsalmon;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Header Section*/
+header{
+    height: 60px;
+    /* boder:5px solid hotpink */
+    background-color:rgb(68, 120, 189)
+}
+
+
+/*Search Section*/
+#search{
+height: 450px;
+/* border:1px solid red;
+background-color: #d9b6ca; */
+background-image: url("./wp9980760.webp");
+background-repeat: no-repeat;
+/*background-size: cover; */
+background-size: 100% 450px;
+}
+
+#brand{
+    float:left;
+    color: white;
+    font-size: 35px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#social{
+    float:right
+}
+
+.socialLogo{
+    height:50px;
+}
+
+#Content{
+    width: 85%;
+    margin-left:7.5%;
+    margin-top: 3%;
+    display: inline;
+}
+
+.filter{
+    height: 500px;
+    width: 20%;
+    border: 3px solid gray;
+    float: left;
+}
+
+.restContent{
+    height: 700px;
+    width: 70%;
+    float: left;
+    border: 3px solid orchid;
+    margin-left: 7%;
+}
+
+
+
+
+
+/*footer Section*/
+footer{
+    /* borde:5px groove green; */
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+
+.footText{
+    font-size: 20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width: 32%;
+    border-right: 2px solid white;
+}
+.noBorder{
+    boder:none
+}
+
+ul{
+    list-style-type: none
+}
